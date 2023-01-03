@@ -1,0 +1,9 @@
+Test cases
+
+ After the modification in your local repo ,Check whether your repo is synchronised with the remote repo.
+
+   1.git log – to view the latest commits
+   2.git status
+   3.git fetch 
+   4.git status
+	

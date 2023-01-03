@@ -35,7 +35,7 @@ Test cases
      a0a921f..acb0212  main       -> origin/main
 
      
-   4.git status
+   4.git status - it represent the current state of the repository
 
 	
 	

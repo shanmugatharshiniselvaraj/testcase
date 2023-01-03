@@ -37,4 +37,27 @@ Test cases
 
      
    4.git status
+     On branch main
+     Your branch is behind 'origin/main' by 2 commits, and can be fast-forwarded.
+     (use "git pull" to update your local branch)
+
+     nothing to commit, working tree clean
+
 	
+	
+2  A) If your file is updated by someone in the remote repo, 
+	After fetching the latest code by git fetch
+
+        git diff – shows the difference between your local file and remote file.
+        git merge – you will get error
+        git stash - take the local copy of your own file
+        git pull or git merge - get the latest version from remote repo
+        git stash pop - merging the changes from your local file into the latest file
+        git status
+        git add
+        git status
+        git commit
+        git diff – shows the difference between your file and remote repo file, after you have added the updated files you won’t get the differences.
+        git status
+        git push 
+        git status

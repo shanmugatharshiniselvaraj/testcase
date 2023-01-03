@@ -23,7 +23,7 @@ Test cases
 
      nothing to commit, working tree clean
 
-   3.git fetch - This command is not working but i don't know the reason
+   3.git fetch - This command is not working but i don't know the reason so that, i executed git pull command upadt
      
    4.git status
 	

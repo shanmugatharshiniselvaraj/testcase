@@ -23,25 +23,8 @@ Test cases
 
      nothing to commit, working tree clean
 
-   3.git fetch 
-   
-     Username for 'https://github.com': shanmugatharshiniselvaraj
-     Password for 'https://shanmugatharshiniselvaraj@github.com': 
-     remote: Enumerating objects: 5, done.
-     remote: Counting objects: 100% (5/5), done.
-     remote: Compressing objects: 100% (3/3), done.
-     remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
-     Unpacking objects: 100% (3/3), 759 bytes | 759.00 KiB/s, done.
-     From https://github.com/shanmugatharshiniselvaraj/testcase
-     a0323f5..a0a921f  main       -> origin/main
-
-     
+   3.git fetch    
    4.git status
-     On branch main
-     Your branch is behind 'origin/main' by 2 commits, and can be fast-forwarded.
-     (use "git pull" to update your local branch)
-
-     nothing to commit, working tree clean
 
 	
 	

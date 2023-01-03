@@ -35,7 +35,14 @@ Test cases
      a0a921f..acb0212  main       -> origin/main
 
      
-   4.git status - it represent the current state of the repository
+   4.git status
+   
+     On branch main
+     Your branch is behind 'origin/main' by 6 commits, and can be fast-forwarded.
+     (use "git pull" to update your local branch)
+
+     nothing to commit, working tree clean
+
 
 	
 	

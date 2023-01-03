@@ -47,6 +47,7 @@ Test cases
 	
 	
 2  A) If your file is updated by someone in the remote repo, 
+
 	After fetching the latest code by git fetch
 
         git diff – shows the difference between your local file and remote file.
@@ -61,4 +62,31 @@ Test cases
         git diff – shows the difference between your file and remote repo file, after you have added the updated files you won’t get the differences.
         git status
         git push 
+        git status
+	
+2 B) if your file is not updated by someone in the remote repo
+
+	After fetching the latest code by git fetch 
+   		 
+        git merge
+	
+	Updating a0323f5..9c5146a
+        Fast-forward
+        sample.txt | 32 ++++++++++++++++++++++++++++++--
+        1 file changed, 30 insertions(+), 2 deletions(-)
+
+        git status
+	
+	On branch main
+        Your branch is up to date with 'origin/main'.
+
+        nothing to commit, working tree clean
+
+        git diff
+	
+        git add
+        git status
+        git commit
+        git status
+        git push
         git status

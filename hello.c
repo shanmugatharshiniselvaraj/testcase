@@ -1,6 +1,1 @@
-#include<stdio.h>
-int main()
-{
-   printf("\n Hello world");
-   return 0;
-}
+This program used for print the hello world using c programming
